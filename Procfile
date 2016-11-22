@@ -1,1 +1,1 @@
-web: .build/release/kituraheroku
+web: .build/release/kitura-heroku

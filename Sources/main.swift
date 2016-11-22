@@ -9,8 +9,7 @@ let router = Router()
 
 router.get("/") {
     request, response, next in
-      let json = JSON(["Hello":"world"])
-      response.status(HttpStatusCode.OK).sendJson(json).end()
+      response.status(.OK).send(json: JSON(["Hello" : "world"]))
       next()
 }
 

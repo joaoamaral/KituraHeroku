@@ -9,12 +9,7 @@ let router = Router()
 
 router.get("/"){
   request, response, next in
-    let json = JSON(["Hello":"world"])
-    do {
-          try response.status(HttpStatusCode.OK).sendJson(json).end()
-    } catch {
-
-    }
+    response.send("Hello, World!")
     next()
 }
 let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8091") ?? 8091

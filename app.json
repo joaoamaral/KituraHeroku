@@ -1,0 +1,12 @@
+{
+  "name": "kitura-heroku",
+  "description": "Kitura on Heroku Proof of Concept",
+  "repository": "https://github.com/joaoamaral/KituraHeroku",
+  "logo": "https://raw.githubusercontent.com/joaoamaral/KituraHeroku/master/KituraHeroku.png",
+  "keywords": ["swift", "kitura", "heroku", "web"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kylef/heroku-buildpack-swift"
+    }
+  ]
+}

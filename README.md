@@ -18,11 +18,9 @@ This enables both mobile frontend and backend portions of an application to be w
 
 In addition, web developers who are used to other routing frameworks such Express, Sinatra, or Flask will be able to easily create or port web apps over to the Swift language.
 
-Following instructions here:
 
-https://github.com/IBM-Swift/Kitura#developing-kitura-applications
 
-then here to push it to the cloud (Heroku):
+Thank you for all the help from IBM-Swift (@vadimeisenbergibm, @rfdickerson, @byt3smith)
+Based on @kylef Swift Buildpack
 
-https://github.com/kylef/heroku-buildpack-swift
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/joaoamaral/KituraHeroku)
